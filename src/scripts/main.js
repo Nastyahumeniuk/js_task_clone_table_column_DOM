@@ -1,7 +1,7 @@
 'use strict';
 
 function tableColumn() {
-  const table = document.querySelector('.table');
+  const table = document.querySelector('.myTable');
   const tableRows = table.querySelectorAll('tr');
   const tableHeader = table.querySelector('thead');
   const tableHeadCells = tableHeader.querySelectorAll('th');
